@@ -1,0 +1,245 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<style>
+		.to_header{
+				height: 51px;
+				background-color: #E8E8E8;
+			}
+			.carousel-indicators li{
+				width: 12px;height: 12px;
+				border-radius: 50%;
+				background-color: #E8E8E8;
+				margin: 0 0.25rem;
+			}
+			.carousel-indicators .active{
+				background: #0aa1ed;
+			}
+			.carousel-control-next,
+			.carousel-control-prev{
+				width: 3%;height: 20%;
+				background-color: #aaa;
+				border-radius: 0.25rem;
+				top:40%
+			}
+			.container-fluid ul li a{
+				color: #000000;		
+			}
+			.to_input{
+				height: 46px;
+			}
+			.to_input>div a{
+				position: absolute;
+				left: -120px;
+			}
+			.container-fluid>div img{
+				width: 50%;color: 
+				}
+				.to_seach ul li img{
+					width: 30px;height: 25px;
+					margin: 1px;
+				}
+				.to_body{	flex-direction: around;}
+				.to_body>div img{
+					width: 250px;height: 250px;
+				}
+		.body-header li img{
+			position: absolute;
+			left:570px;top: 10px;
+		}
+		.search_body{
+			position: absolute;
+			left: 30px;
+		}
+		/* 尾 */
+		.footer_tel{
+			font-family: DINAlternate;
+			    height: 185px;
+			    margin-bottom: 26px;
+			    font-size: 30px;
+			    font-weight: bold;
+			    color: #222;
+			    padding: 66px 0 66px 120px;
+			    background: #f9f9f9;
+		}
+		.footer_copyright{
+			font-size: 12px;
+			    line-height: 20px;
+			    margin-bottom: 2px;
+			    font-family: PingFangSC;
+			    color: #bebebe;
+			    padding:66px 0 66px 120px ;
+		}
+		.footer_text{
+			position: absolute;
+			top:200px;
+			
+		}
+		.footer_img{
+			height:250px;
+			
+		}
+		.photo_span{
+			line-height: 22px;
+			    color: #222222;
+		   }
+				.text_yangs{
+					width: 200px;
+				}	   
+				.text_yangs1>button{
+					width: 100px;
+					height: 40px;
+					background-color: white;
+					border: 1px solid black;
+				   margin-left: 30px;
+				}	 	
+				.footer_form>img{
+					
+				}
+	</style>
+	<body>
+			<div class="container-fluid">
+			<!-- header -->	
+			<div class="d-flex row no-gutters to_header">
+			  <div class="col-lg-3 to-chong mt-1 ">
+			  	<img src="./img/tuchong.png" width="180px" height="43px">
+			  </div>
+			  
+			  <div class="col-lg-7 d-flex to_input">
+					  <div class="dropdown">
+					    <button data-toggle="dropdown" class="btn btn-light dropdown-toggle border-primary rounded-0 my-1 ml-3">图片</button>
+					  				<ul class="dropdown-menu ">
+					  					<li><a href="#">图片</a></li>
+					  					<li><a href="#">视频</a></li>
+										</ul>
+						</div>	
+					<input class="my-1 w-50 mt-1 p-1 ml-0" type="text"  placeholder="开启你的创意之旅" >
+					<div class="to_seach" >
+						<ul class="list-unstyled row no-gutters body-header ">
+							<li><img  src="img/xiangji.png" ></li>
+							<li class="search_body"><img  src="img/search.png" ></li>
+						</ul>
+					</div>
+				</div>
+			  <div class="col-lg-2 ">
+			  					<ul class="breadcrumb">
+			  						<li class="breadcrumb-item"><a href="#">注册</a></li>
+			  						<li class="breadcrumb-item"><a href="#">登录</a></li>
+			  					</ul>
+			  </div>
+			</div>
+				<!-- body -->
+				<div class="container">
+				<div class="col-12 row no-gutters ">
+					<div class="col-md-8">
+						<img class="w-100" src="img2/1child.jpg" >
+					</div>
+					<div class="col-md-4">
+						<h5 class="font-weight-bold text-center">Happy young Woman On Sofa At Home</h5>
+						<div class="border ml-4 photo_span">
+							<p><span class="text-muted">图片编号</span>&nbsp;<span>415750575229633032</span></p>
+							<p><span class="text-muted">作者/来源</span>&nbsp;<span>Girls-think-position</span></p>
+							<p><span class="text-muted">最大规格</span>&nbsp;<span>4122 px × 2827 px（300dpi）</span></p>
+							<p><span class="text-muted">图片格式</span>&nbsp;<span>jpg</span></p>
+							<p><span class="text-muted">版权类型</span>&nbsp;<span>RF</span></p>
+							<p><span class="text-muted">授权书</span>&nbsp;<span class="text-info">预览模板</span></p>
+							<p><span class="text-muted">相关权利</span>&nbsp;<span>有模特肖像权授权</span></p>
+						</div>
+						<div class="d-flex ml-4  py-3 mt-2">
+							<div class="text_yangs"><button type="button" class="btn btn-warning w-100">样图</button></div>
+							<div class="text_yangs1"><button class="w-100" type="button"><img  src="img/xingxing.png" ></button></div>
+						</div>
+						<div><span class="form-control-sm bg-light ml-2">购买素材，请联系您的版权顾问或拨打4000-666-417</span></div>
+					</div>
+				</div>
+				<div class="d-flex justify-content-between font-weight-bold">
+					<span class="mb-3 mt-3">关键字</span>
+					<span class="mb-3 mt-3">展开全部</span>
+				</div >
+				<div class="d-flex justify-content-around mb-3">
+					<a class="text-muted bg-light" href="">eyeem_selected</a>
+					<a class="text-muted bg-light" href="">oneperson</a>
+					<a class="text-muted bg-light" href="">windows</a>
+					<a class="text-muted bg-light" href="">realpeople</a>
+					<a class="text-muted bg-light" href="">youngadult</a>
+					<a class="text-muted bg-light" href="">youngwomen</a>
+					<a class="text-muted bg-light" href="">casualclothing</a>
+					<a class="text-muted bg-light" href="">sitting</a>
+					<a class="text-muted bg-light" href="">relaxing</a>
+					<a class="text-muted bg-light" href="">leisuractivity</a>
+					<a class="text-muted bg-light" href="">day</a>
+				</div>
+				<div class="d-flex justify-content-around mx-3">
+					<a class="text-muted bg-light" href="">lifestylle</a>
+					<a class="text-muted bg-light" href="">indoors</a>
+					<a class="text-muted bg-light" href="">fulllength</a>
+					<a class="text-muted bg-light" href="">architecture</a>
+					<a class="text-muted bg-light" href="">30-40years</a>
+					<a class="text-muted bg-light" href="">asianandianethnicities</a>
+					<a class="text-muted bg-light" href="">happiness</a>
+					<a class="text-muted bg-light" href="">Happy</a>
+					<a class="text-muted bg-light" href="">homeinterior</a>
+					<a class="text-muted bg-light" href="">horizontalimage</a>
+				</div>
+				<div class="font-weight-bold mt-4 ">
+					<span class="mt-3 mb-3">相似图片</span>
+				</div>
+				<div class="col-lg-12 row no-gutters">
+					<div class="col-lg-3 col-md-6 footer_form row no-gutters">
+						<div><img class="w-100 mb-1" src="img2/1child.jpg"></div>
+						<div><img class="w-100 mb-1" src="img2/day.jpg"></div>
+						<div><img class="w-100 mb-1" src="img2/day1.jpg"></div>
+						<div><img class="w-100 mb-1" src="img2/day02.jpg"></div>
+						<div><img class="w-100 " src="img2/day5.jpg"></div>
+					</div> 
+					<div class="col-lg-3 col-md-6">
+						<div><img class="w-100 mb-2 ml-2 pr-2" height="180px" src="img2/day6.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2 pr-2"  src="img2/day8.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2 pr-2" src="img2/day9.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2 pr-2" src="img2/day10.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2 pr-2" src="img2/day11.jpg" ></div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div><img class="w-100 mb-2 ml-2 pr-2" src="img2/da3.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2 pr-2" src="img2/da1.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2 pr-2" src="img2/da4.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2 pr-2" src="img2/da5.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2 pr-2" src="img2/da.jpg" ></div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div><img class="w-100 mb-2 ml-2" src="img2/dd.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2" src="img2/dd2.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2" src="img2/dd3.jpg" ></div>
+						<div><img class="w-100 mb-2 ml-2" src="img2/da.jpg" ></div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 m-3 text-center">
+					<button type="button" class="btn btn-outline-info border-primary w-25">查看全部</button>
+				</div>
+	
+				</div>
+				<!-- footer -->
+			<div class="container-fluid">
+				<div class="col-12 row no-gutters">
+					<div class="footer_tel col-7 ">Tel
+					<p>4000-666-417</p>
+			  	</div>
+					<div class="footer_img col-5">
+						<img class="w-100 " src="img/footer111.jpg" >
+					</div>
+				  <div class="footer_text">
+				  	<div class="text-muted footer__copyright">©2017 tuchong.com | 沪ICP备19019196号-1 | 京公网安备 11010802023710号 | 营业执照</div>
+				  	<div class="text-muted footer__copyright">网络文化经营许可证京网文[2019]0017-017号 丨出版物经营许可证新出发沪批字第Y7235号</div>
+				  </div>
+				</div>
+			
+	
+	</body>
+</html>

@@ -1,0 +1,291 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<style type="text/css">
+			.container div{
+				width: 100%;
+			}
+			.to_header{
+				height: 51px;
+				background-color: #E8E8E8;
+			}
+			.carousel-indicators li{
+				width: 12px;height: 12px;
+				border-radius: 50%;
+				background-color: #E8E8E8;
+				margin: 0 0.25rem;
+			}
+			.carousel-indicators .active{
+				background: #0aa1ed;
+			}
+			.carousel-control-next,
+			.carousel-control-prev{
+				width: 3%;height: 20%;
+				background-color: #aaa;
+				border-radius: 0.25rem;
+				top:40%
+			}
+			.container-fluid ul li a{
+				color: #000000;
+				/* background-color: #0056B3; */
+			
+			}
+			.to_input{
+				height: 46px;
+			}
+			.to_input>div a{
+				position: absolute;
+				left: -120px;
+			}
+			.container-fluid>div img{
+				width: 50%;color: 
+				}
+				.to_seach ul li img{
+					width: 30px;height: 25px;
+					margin: 1px;
+				}
+			/* 	.body-header li img{
+					position: absolute;
+					left: 5px;
+				} */
+				.to_body{	flex-direction: around;}
+				.to_body>div img{
+					width: 250px;height: 250px;
+				}
+		.body-header li img{
+			position: absolute;
+			left:570px;top: 10px;
+		}
+		.search_body{
+			position: absolute;
+			left: 30px;
+		}
+		/* 尾 */
+		.footer_tel{
+			font-family: DINAlternate;
+			    height: 185px;
+			    margin-bottom: 26px;
+			    font-size: 30px;
+			    font-weight: bold;
+			    color: #222;
+			    padding: 66px 0 66px 120px;
+			    background: #f9f9f9;
+		}
+		.footer_copyright{
+			font-size: 12px;
+			    line-height: 20px;
+			    margin-bottom: 2px;
+			    font-family: PingFangSC;
+			    color: #bebebe;
+			    padding:66px 0 66px 120px ;
+		}
+		.footer_text{
+			position: absolute;
+			top:200px;
+	
+		}
+		.footer_img{
+			height:250px;
+	
+		}
+		
+		/* 中 */
+		
+		.topic-banner {
+		    position: relative;
+		    height: 500px;
+		    background-size: cover;
+		    background-position: center;
+		}
+		.topic-banner .banner-mask {
+		    position: absolute;
+		    bottom: 20px;
+		    left: 0;
+		    width: 100%;
+		    height: 142px;
+		    padding: 47px 40px 30px;
+		    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+				color: white;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+		<!-- header -->	
+		<div class="d-flex row no-gutters to_header">
+		  <div class="col-lg-3 to-chong mt-1 ">
+		  	<img src="./img/tuchong.png" width="180px" height="43px">
+		  </div>
+		  
+		  <div class="col-lg-7 d-flex to_input">
+				  <div class="dropdown">
+				    <button data-toggle="dropdown" class="btn btn-light dropdown-toggle border-primary rounded-0 my-1 ml-3">图片</button>
+				  				<ul class="dropdown-menu ">
+				  					<li><a href="#">图片</a></li>
+				  					<li><a href="#">视频</a></li>
+									</ul>
+					</div>	
+				<input class="my-1 w-50 mt-1 p-1 ml-0" type="text"  placeholder="开启你的创意之旅" >
+				<div class="to_seach" >
+					<ul class="list-unstyled row no-gutters body-header ">
+						<li><img  src="img/xiangji.png" ></li>
+						<li class="search_body"><img  src="img/search.png" ></li>
+					</ul>
+				</div>
+			</div>
+		  <div class="col-lg-2 ">
+		  					<ul class="breadcrumb">
+		  						<li class="breadcrumb-item"><a href="#">注册</a></li>
+		  						<li class="breadcrumb-item"><a href="#">登录</a></li>
+		  					</ul>
+		  </div>
+			
+			<div class="topic-banner">
+				<div class="banner-mask">
+					<h2>艺术家-Thomas看世界</h2>
+					<p>共48张照片</p>
+				</div>
+				<img class="w-100" src="img1/01.jpg" >
+			</div>
+			<!-- body -->
+			<div class="mb-3">
+				<div class="col-12 row no-gutters ">
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/02.jpg"  height="300px"></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/timg.gif" height="300px" ></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=1074344904,64200641&fm=26&gp=0.jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 " href=""><img class="w-100" src="img1/u=1082260931,4114330287&fm=26&gp=0.jpg" height="300px"></a>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="col-12 row no-gutters ">
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=1138921831,1669761837&fm=26&gp=0.jpg"  height="300px"></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=1338803503,2885247886&fm=26&gp=0.jpg" height="300px" ></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=1391594744,1911805939&fm=26&gp=0%20(1).jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 " href=""><img class="w-100" src="img1/u=1607633117,1314210850&fm=26&gp=0%20(1).jpg" height="300px"></a>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="col-12 row no-gutters ">
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=190672869,3670007826&fm=26&gp=0.jpg"  height="300px"></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=2080681810,577125918&fm=26&gp=0.jpg" height="300px" ></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=2168127927,2133207810&fm=26&gp=0.jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 " href=""><img class="w-100" src="img1/u=2183701384,538606139&fm=26&gp=0.jpg" height="300px"></a>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="col-12 row no-gutters ">
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=2447835050,643428926&fm=15&gp=0.jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=2509546842,86277759&fm=26&gp=0.jpg" height="300px" ></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=2513360816,2936414857&fm=26&gp=0.jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 " href=""><img class="w-100" src="img1/u=2515940982,2449620873&fm=26&gp=0.jpg" height="300px"></a>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="col-12 row no-gutters ">
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=2603215126,1112136140&fm=15&gp=0.jpg"  height="300px"></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=2608822124,105879587&fm=15&gp=0.jpg" height="300px" ></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=2660327092,2700939992&fm=26&gp=0.jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 " href=""><img class="w-100" src="img1/u=2664307187,663748988&fm=15&gp=0.jpg" height="300px"></a>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="col-12 row no-gutters ">
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=2691088483,830658929&fm=26&gp=0.jpg"  height="300px"></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=2813547632,1434414736&fm=15&gp=0.jpg" height="300px" ></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=285498461,1377260885&fm=26&gp=0.jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 " href=""><img class="w-100" src="./img2/15.jpg" height="300px"></a>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="col-12 row no-gutters ">
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="./img1/u=393045011,199098969&fm=26&gp=0.jpg"  height="300px"></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/timg.gif" height="300px" ></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img1/u=1074344904,64200641&fm=26&gp=0.jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 " href=""><img class="w-100" src="img2/2.jpg" height="300px"></a>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="col-12 row no-gutters ">
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img2/01.jpg"  height="300px"></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img2/10.jpg" height="300px" ></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img2/11.jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 " href=""><img class="w-100" src="img2/12.jpg" height="300px"></a>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="col-12 row no-gutters ">
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img2/13.jpg"  height="300px"></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img2/14.jpg" height="300px" ></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img2/15.jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 " href=""><img class="w-100" src="img2/16.jpg" height="300px"></a>
+				</div>
+			</div>
+			<div class="mb-3">
+				<div class="col-12 row no-gutters ">
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img2/17.jpg"  height="300px"></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img2/18.jpg" height="300px" ></a>
+					<a class="col-md-3 col-sm-6 pr-1" href=""><img class="w-100" src="img2/19.jpg" height="300px"></a>
+					<a class="col-md-3 col-sm-6 " href=""><img class="w-100" src="img2/20.jpg" height="300px"></a>
+				</div>
+			</div>
+			
+			<div class="col-md-12">
+				<div class="col-md-12">
+					<span class="font-weight-bold ">同系列图册</span>
+				</div>
+				<div class="d-flex col-md-12">
+					<a class="col-md-2 form-control-lg" href="#">
+						<p>#插画艺术家-他山之石HYDE</p>
+					</a>
+					<a class="col-md-2 form-control-lg" href="#"><p>#艺术家-Thomas看看世界</p></a>
+					<a class="col-md-2 form-control-lg" href="#"><p>#插画艺术家-典藏</p></a>
+					<a class="col-md-2 form-control-lg" href="#"><p>#插画艺术家-Keevector</p></a>
+					<a class="col-md-2 form-control-lg" href="#"><p>#艺术家-汉大将军袁绍</p></a>
+					<a class="col-md-2 form-control-lg" href="#"><p>#插画艺术家-喵立下</p></a>
+				</div>
+			</div>
+			
+				<!-- footer -->	
+			
+			<div class="container-fluid">
+				<div class="col-12 row no-gutters">
+					<div class="footer_tel col-7 ">Tel
+					<p>4000-666-417</p>
+			  	</div>
+					<div class="footer_img col-5">
+						<img class="w-100 " src="img/footer111.jpg" >
+					</div>
+				  <div class="footer_text">
+				  	<div class="text-muted footer__copyright">©2017 tuchong.com | 沪ICP备19019196号-1 | 京公网安备 11010802023710号 | 营业执照</div>
+				  	<div class="text-muted footer__copyright">网络文化经营许可证京网文[2019]0017-017号 丨出版物经营许可证新出发沪批字第Y7235号</div>
+				  </div>
+				</div>
+			<div>	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+	</div>
+			
+			
+			
+		
+			
+			
+			
+		
+	</body>
+</html>
